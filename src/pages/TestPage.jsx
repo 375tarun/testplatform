@@ -1,9 +1,13 @@
-import React from 'react'
+// testPage.jsx
+import LayoutContainer from "../layout/LayoutContainer";
+
 
 const TestPage = () => {
   return (
-    <div>TestPage</div>
-  )
-}
+    <div className="h-screen flex flex-col">
+      <LayoutContainer />
+    </div>
+  );
+};
 
-export default TestPage
+export default TestPage;
